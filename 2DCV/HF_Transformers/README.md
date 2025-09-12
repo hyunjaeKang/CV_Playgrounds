@@ -8,7 +8,7 @@
  
  pip install -U torch torchvision torchao
  pip install -U transformers datasets evaluate accelerate timm 
- pip install ipykernel ipywidgets
+ pip install ipykernel ipywidgets matplotlib
  ```
 
 
@@ -20,4 +20,5 @@
     - [PyTorch Install](https://pytorch.org/)
 
 - ***Github***:
-    - .....
+    - https://github.com/huggingface/transformers/tree/main/notebooks
+    - https://github.com/huggingface/notebooks/tree/main
