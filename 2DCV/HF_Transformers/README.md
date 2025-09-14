@@ -6,7 +6,7 @@
  conda create -y -n hf_transformers python=3.10
  conda activate hf_transformers
  
- pip install -U torch torchvision torchao pytorchvideo
+ pip install -U torch torchvision torchao pytorchvideo torchcodec
  pip install -U transformers datasets evaluate accelerate timm 
  pip install ipykernel ipywidgets 
  pip install matplotlib opencv-python faiss-cpu imageio
