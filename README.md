@@ -11,5 +11,5 @@
  pip install -U torch torchvision torchao pytorchvideo torchcodec
  pip install -U transformers datasets evaluate accelerate timm kagglehub
  pip install ipykernel ipywidgets 
- pip install matplotlib opencv-python faiss-cpu imageio kaggle scikit-learn gradio==3.50
+ pip install matplotlib opencv-python faiss-cpu imageio kaggle scikit-learn num2words gradio==3.50 
  ```
