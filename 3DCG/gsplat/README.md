@@ -19,7 +19,7 @@
  pip install -e ./temp_gsplat
 
  pip install -r ./temp_gsplat/examples/requirements.txt
- pip install ipykernel ipywidgets gdown torchcodec av
+ pip install ipykernel ipywidgets gdown torchcodec av torchshow
  ```
 
 
