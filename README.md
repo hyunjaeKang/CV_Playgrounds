@@ -3,10 +3,7 @@
 ---
 ## Playgrounds
 - 2DCV : 2D Computer vision
-- 3DCG : 3D Computer Graphics
 - 3DCV : 3D Computer vision
-- VLM : Visual Language Model
-
 ---
 ## Setup a conda environment
 
