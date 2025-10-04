@@ -16,5 +16,9 @@
  pip install ipykernel ipywidgets
  pip install matplotlib opencv-python faiss-cpu imageio scikit-learn gradio==3.50
  pip install tiktoken num2words kaggle kagglehub einops qwen_vl_utils loadimg
+ pip install tensorflow==2.19.0 tf_keras==2.19.0 tensorflow_probability
+
+ # For MacOS
+ pip install tensorflow-metal
  ```
 
