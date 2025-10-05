@@ -12,7 +12,8 @@
  conda activate cv_playgrounds
 
  pip install -U torch torchvision torchao pytorchvideo torchcodec torchsummary torchshow
- pip install -U transformers transformers_stream_generator diffusers datasets evaluate accelerate timm
+ pip install -U transformers transformers_stream_generator diffusers
+ pip install datasets evaluate accelerate timm insightface onnxruntime
  pip install ipykernel ipywidgets
  pip install matplotlib opencv-python faiss-cpu imageio scikit-learn gradio==3.50
  pip install tiktoken num2words kaggle kagglehub einops qwen_vl_utils loadimg
