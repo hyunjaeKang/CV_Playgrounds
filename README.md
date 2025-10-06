@@ -11,7 +11,7 @@
  conda create -y -n cv_playgrounds python=3.10.12
  conda activate cv_playgrounds
 
- pip install -U torch torchvision torchao pytorchvideo torchcodec torchsummary torchshow
+ pip install -U torch torchvision torchao pytorchvideo torchcodec torchsummary torchshow torchmetrics
  pip install -U transformers transformers_stream_generator diffusers
  pip install datasets evaluate accelerate timm insightface onnxruntime peft
  pip install ipykernel ipywidgets
