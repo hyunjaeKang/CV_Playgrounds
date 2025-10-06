@@ -15,8 +15,8 @@
  pip install -U transformers transformers_stream_generator diffusers
  pip install datasets evaluate accelerate timm insightface onnxruntime peft
  pip install ipykernel ipywidgets
- pip install matplotlib opencv-python faiss-cpu imageio scikit-learn gradio==3.50
- pip install tiktoken num2words kaggle kagglehub einops qwen_vl_utils loadimg
+ pip install matplotlib opencv-python faiss-cpu imageio scikit-learn gradio==3.50 mediapy
+ pip install tiktoken num2words kaggle kagglehub einops qwen_vl_utils loadimg lovely_tensors
  pip install tensorflow==2.19.0 tf_keras==2.19.0 tensorflow_probability
 
  # For MacOS

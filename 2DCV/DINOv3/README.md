@@ -35,12 +35,37 @@ https://ai.meta.com/resources/models-and-libraries/dinov3-downloads/
     - Save the .pth file to a local directory  : ***./temp_dinov3_model***
 
 
+- Folder structure:
+```
+-CV_Playgrounds
+  |- 2DCV
+      |...
+      |-DINOv3
+         |- temp_dinov3_model
+            |- dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth
+            |- dinov3_vitl16_dinotxt_vision_head_and_text_encoder-a442d8f5.pth
+      |...
+
+```
+
+---
+
+### Jupyter Notebooks
+
+| Demo | Notebook |
+| ---- | ---- |
+| Dense And Sparse Correspondence | [dense_sparse_matching.ipynb](./dense_sparse_matching.ipynb) |
+| DINO TXT Interference | [dinotxt_inference.ipynb](./dinotxt_inference.ipynb) |
+| Training a Foreground Segmentation Tool with DINOv3 | [foreground_segmentation.ipynb](./foreground_segmentation.ipynb) |
+| Computing the PCA of a Foreground Object | [pca.ipynb](./pca.ipynb) |
+| Segmentation Tracking with DINOv3 | [./segmentation_tracking.ipynb](./segmentation_tracking.ipynb) |
+
+
 ---
 ### Reference:
 
-
 - ***Papers***:
-    - ...
+    - [DINOv3](https://arxiv.org/abs/2508.10104)
 
 - ***Blog***:
     - [DINOV3](https://ai.meta.com/dinov3/)
