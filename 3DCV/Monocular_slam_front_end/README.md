@@ -1,5 +1,7 @@
 # Monocular Visual SLAM for Robotics Implementation in Python
 
+<img src="./data/Monocular_slam_front_end.jpeg">
+----
 
 - Juypter notebook : [slam_front_end_step_by_step.ipynb](./slam_front_end_step_by_step.ipynb)
 
