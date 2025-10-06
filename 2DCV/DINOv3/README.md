@@ -39,12 +39,12 @@ https://ai.meta.com/resources/models-and-libraries/dinov3-downloads/
 ```
 -CV_Playgrounds
   |- 2DCV
-      |...
-      |-DINOv3
-         |- temp_dinov3_model
-            |- dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth
-            |- dinov3_vitl16_dinotxt_vision_head_and_text_encoder-a442d8f5.pth
-      |...
+  |   |...
+  |   |-DINOv3
+  |   |    |- temp_dinov3_model
+  |   |    |   |- dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth
+  |   |    |   |- dinov3_vitl16_dinotxt_vision_head_and_text_encoder-a442d8f5.pth
+  |   |...
 
 ```
 
