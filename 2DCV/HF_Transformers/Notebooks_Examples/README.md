@@ -1,18 +1,62 @@
-# Hugging Face :: Transformers :: Computer Vision
-
-## Notebook Examples
+# Hugging Face :: Transformers :: Notebook Examples
 
 
-|Example | Description |     Reference     |
-| :----  | :----       | :----            |
-| [Image classification](./Image_classification.ipynb) | Show how to preprocess the data using Torchvision and fine-tune any pretrained Vision model on Image Classification  |  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/image_classification.ipynb) |
-| [Zero-shot Object Detection](./zeroshot_object_detection_with_owlvit.ipynb) | Show how to perform zero-shot object detection on images with text queries | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/zeroshot_object_detection_with_owlvit.ipynb)|
-|[Image captioning](./image_captioning_blip.ipynb) | Show how to fine-tune **BLIP** for image captioning on a custom dataset | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/image_captioning_blip.ipynb) |
-|[Image similarity](./image_similarity.ipynb) | Show how to build an image similarity system | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/image_similarity.ipynb) |
-|[Image similarity with FAISS](./image_similarity_faiss.ipynb)| Show how to build image similarity system with FAISS | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/sayakpaul/5b5b5a9deabd3c5d8cb5ef8c7b4bb536/image_similarity_faiss.ipynb) |
-|[Image semtatic segmentation](./semantic_segmentation.ipynb) | Show how to preprocess the data and fine-tune a pretrained SegFormer model on Semantic Segmentation  | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/semantic_segmentation.ipynb)|
-|[video classification](./video_classification.ipynb) | Show how to preprocess the data and fine-tune a pretrained VideoMAE model on Video Classification                      | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/video_classification.ipynb)                |
+----
 
+### Setup a conda environment
+
+- [cv_playgrounds](../../README.md#setup-a-conda-environment)
+
+----
+
+
+### Contents
+
+<table>
+  <thead>
+    <tr>
+      <th>Notebook</th>
+      <th>Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="./Image_based_Search_Engine.ipynb">Image_based_Search_Engine.ipynb</a></td>
+      <td>A tiny demo of searching image with CLIP model.</td>
+    </tr>
+    <tr>
+      <td><a href="./image_captioning_blip.ipynb">image_captioning_blip.ipynb</a></td>
+      <td>Fine-tune BLIP using Hugging Face transformers and datasets</td>
+    </tr>
+    <tr>
+      <td><a href="./Image_classification.ipynb">Image_classification.ipynb</a></td>
+      <td>Fine-tuning for Image Classification with Transformers</td>
+    </tr>
+    <tr>
+      <td><a href="./image_similarity.ipynb">image_similarity.ipynb</a></td>
+      <td>Building an Image Similarity System with Transformers</td>
+    </tr>
+    <tr>
+      <td><a href="./image_similarity_faiss.ipynb">image_similarity_faiss.ipynb</a></td>
+      <td>Building an image similarity system with Datasets FAISS</td>
+    </tr>
+    <tr>
+      <td><a href="./semantic_segmentation.ipynb">semantic_segmentation.ipynb</a></td>
+      <td>Fine-tuning for Semantic Segmentation with Transformers</td>
+    </tr>
+    <tr>
+      <td><a href="./video_classification.ipynb">video_classification.ipynb</a></td>
+      <td> Fine-tuning for Video Classification with Transformers </td>
+    </tr>
+    <tr>
+      <td><a href="./zeroshot_object_detection_with_owlvit.ipynb">zeroshot_object_detection_with_owlvit.ipynb</a></td>
+      <td>Zero-shot object detection with Owl-Vit</td>
+    </tr>
+  </tbody>
+</table>
+
+
+----
 
 
 ### Reference:

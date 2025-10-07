@@ -1,12 +1,15 @@
 # Hugging Face :: Diffusion
 
+----
 ## Conda environment
 
 - [cv_playgrounds](../../README.md#setup-a-conda-environment)
 
-## Tutorials
+-----
 
-| Contents | Juypter Notebooks |
+## Contents
+
+| Title | Notebooks |
 | :--- | :---
 | [Effective and efficient diffusion](https://huggingface.co/docs/diffusers/v0.34.0/en/stable_diffusion) | [01.3.Effective_and_efficient_diffusion](./01.3.Effective_and_efficient_diffusion.ipynb) |
 | [Understanding pipelines, models and schedulers](https://huggingface.co/docs/diffusers/v0.34.0/en/using-diffusers/write_own_pipeline) | [02.2.Understanding_pipelines_models_and_schedulers](./02.2.Understanding_pipelines_models_and_schedulers.ipynb)
