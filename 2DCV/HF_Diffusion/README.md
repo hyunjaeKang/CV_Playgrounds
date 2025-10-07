@@ -1,7 +1,7 @@
 # Hugging Face :: Diffusion
 
 ## Conda environment
-    
+
 - [cv_playgrounds](../../README.md#setup-a-conda-environment)
 
 ## Tutorials
@@ -17,11 +17,12 @@
 |[Load schedulers and models](https://huggingface.co/docs/diffusers/v0.34.0/en/using-diffusers/schedulers) | [03.3.Load_schedulersandmodels](./03.3.Load_schedulersandmodels.ipynb)
 |[Model files and layouts](https://huggingface.co/docs/diffusers/v0.34.0/en/using-diffusers/other-formats) | [03.4.Model_files_and_Layouts](./03.4.Model_files_and_Layouts.ipynb) |
 | [Push files to the Hub](https://huggingface.co/docs/diffusers/v0.34.0/en/using-diffusers/push_to_hub) | [03.5.Push_files_to_the_Hub](./03.5.Push_files_to_the_Hub.ipynb) |
-| 
+| [Adapters-LoRA](https://huggingface.co/docs/diffusers/v0.34.0/en/tutorials/using_peft_for_inference) | <p> [04.01.Adapter_LORA_00](./04.01.Adapter_LORA_00.ipynb) </p> <p> [04.01.Adapter_LORA_01](./04.01.Adapter_LORA_01.ipynb) </p> |
+| [Adapters-IP-Adapter](https://huggingface.co/docs/diffusers/v0.34.0/en/using-diffusers/ip_adapter) | <p> [04.02.Adapter_IP_Adpator](./04.02.Adapter_IP_Adpator.ipynb) </p>  |
 
 ---
 ### Reference:
 
 - ***Blog***:
-    - [Hugging Face-Diffusers](https://huggingface.co/docs/diffusers/v0.34.0/en/using-diffusers/controlling_generation#fine-tuning-your-own-models)
+    - [Hugging Face Diffusers](https://huggingface.co/docs/diffusers/v0.34.0/en/index)
 
