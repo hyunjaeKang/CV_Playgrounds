@@ -22,6 +22,10 @@
 | [Push files to the Hub](https://huggingface.co/docs/diffusers/v0.34.0/en/using-diffusers/push_to_hub) | [03.5.Push_files_to_the_Hub](./03.5.Push_files_to_the_Hub.ipynb) |
 | [Adapters-LoRA](https://huggingface.co/docs/diffusers/v0.34.0/en/tutorials/using_peft_for_inference) | <p> [04.01.Adapter_LORA_00](./04.01.Adapter_LORA_00.ipynb) </p> <p> [04.01.Adapter_LORA_01](./04.01.Adapter_LORA_01.ipynb) </p> |
 | [Adapters-IP-Adapter](https://huggingface.co/docs/diffusers/v0.34.0/en/using-diffusers/ip_adapter) | <p> [04.02.Adapter_IP_Adpator](./04.02.Adapter_IP_Adpator.ipynb) </p>  |
+| [Adapters-ControlNet](https://huggingface.co/docs/diffusers/v0.34.0/en/using-diffusers/controlnet) | <p> [04.03.Adapter_ControlNet](./04.03.Adapter_ControlNet.ipynb) </p>  |
+| [Adapters-T2I-Adapter](https://huggingface.co/docs/diffusers/v0.34.0/en/using-diffusers/t2i_adapter) | <p> [04.04.Adapter_T2I-Adapter](./04.04.Adapter_T2I-Adapter.ipynb) </p>  |
+| [Adapters-DreamBooth](https://huggingface.co/docs/diffusers/v0.34.0/en/using-diffusers/dreambooth) | <p> [04.05.Adapter_DreamBooth](./04.05.Adapter_DreamBooth.ipynb) </p>  |
+| [Adapters-Textual Inversion](https://huggingface.co/docs/diffusers/v0.34.0/en/using-diffusers/textual_inversion_inference) | <p> [04.06.Adapter_textual_inversion](./04.06.Adapter_textual_inversion.ipynb) </p>  |
 
 ---
 ### Reference:
