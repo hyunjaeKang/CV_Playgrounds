@@ -79,7 +79,7 @@ This document explains and compares three commonly used metrics for evaluating i
 
 We compare three images:
 
-<img src="./data/PNR_SNR.png>
+<img src="./data/PNR_SNR.png">
 1. **Blurry Image** – looks perceptually worse, but PSNR/SSIM report good similarity.
 2. **Shifted Image** – looks perceptually fine, but PSNR/SSIM report poor similarity due to misalignment.
 
