@@ -6,7 +6,7 @@
 ### conda env
 [cv_playgrounds](../../README.md#setup-a-conda-environment)
 
---- 
+---
 
 ### Download github
 
@@ -23,7 +23,7 @@ https://ai.meta.com/resources/models-and-libraries/dinov3-downloads/
 
 ----
 
-### Manual download a pre-trained model 
+### Manual download a pre-trained model
 
 - Request access to the weights
     - Navigate to the official DINOv3 download page on Meta AI's website.
