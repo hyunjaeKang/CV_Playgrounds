@@ -18,6 +18,7 @@
  pip install matplotlib opencv-python faiss-cpu imageio scikit-learn gradio==3.50 mediapy
  pip install tiktoken num2words kaggle kagglehub einops qwen_vl_utils loadimg lovely_tensors
  pip install tensorflow==2.19.0 tf_keras==2.19.0 tensorflow_probability
+ pip install "transformers[sentencepiece]"
 
  # For MacOS
  pip install tensorflow-metal
