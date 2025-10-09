@@ -11,7 +11,7 @@
     <tr>
       <th>Category</th>
       <th>Playground</th>
-      <th>Comments</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody>

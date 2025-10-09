@@ -15,7 +15,7 @@
   <thead>
     <tr>
       <th>Notebook</th>
-      <th>Comments</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody>

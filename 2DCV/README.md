@@ -29,7 +29,7 @@
   <thead>
     <tr>
       <th>Playground</th>
-      <th>Comments</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody>
@@ -39,11 +39,11 @@
     </tr>
     <tr>
       <th align="left" rowspan="1"><a href="./Book_deep_learning_from_scratch_5/">Book_deep_learning_from_scratch_5</a></th>
-      <th align="left" rowspan="1">Jupyter notebooks for <i>Deep learning from Scratch 5</i></th>
+      <th align="left" rowspan="1">Demo notebooks for <i>Deep learning from Scratch 5</i></th>
     </tr>
     <tr>
       <th align="left" rowspan="1"><a href="./Book_generative_deep_learning_2nd/">Book_generative_deep_learning_2nd</a></th>
-      <th align="left" rowspan="1">Jupyter notebooks for <i>Generative Deep Learning, 2nd Eidtion</i></th>
+      <th align="left" rowspan="1">Test notebooks for <i>Generative Deep Learning, 2nd Eidtion</i></th>
     </tr>
     <tr>
       <th align="left" rowspan="1"><a href="./TinyDiffusion/">TinyDiffusion</a></th>
