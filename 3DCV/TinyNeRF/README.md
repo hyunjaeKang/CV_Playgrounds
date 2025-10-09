@@ -1,5 +1,7 @@
 # TinyNeRF
 
+----
+
 ### Setup a conda environment
 
 - Conda env : [3dcv_playgrounds](../README.md#setup-a-conda-environment)
