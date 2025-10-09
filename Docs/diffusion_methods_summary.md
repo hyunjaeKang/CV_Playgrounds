@@ -21,14 +21,14 @@ This document explains and compares six key techniques for **controlling or pers
 ## 🔹 2. IP-Adapter
 <img src="https://ipadapterfaceid.com/assets/IP-Adapter.png.webp" width=100% height = 100%>
 
-- Adds an **image-conditioning adapter** to diffusion models.  
+- Adds an **image-conditioning adapter** to diffusion models.
 - **What it is:** An adapter module for diffusion models that allows image-prompt conditioning. You provide a reference image, and the adapter aligns its features with the diffusion process.
 
 - **Why:** Enables image-based guidance (style transfer, face preservation, consistent character rendering).
 
 - **Use cases:** Keep identity/style from a reference image while generating variations.
 
-- **Pros:** Fast, plug-and-play, no re-training needed for each new reference. captures style/identity from images.  
+- **Pros:** Fast, plug-and-play, no re-training needed for each new reference. captures style/identity from images.
 
 - **Cons:** Less precise than full fine-tuning; quality depends on adapter training.
 
@@ -38,7 +38,7 @@ This document explains and compares six key techniques for **controlling or pers
 
 <img src="https://docs.nvidia.com/nemo-framework/user-guide/latest/_images/controlnet-structure.png" width=100% height = 100%>
 
-- Provides **structural conditioning** (pose, depth, edge maps).  
+- Provides **structural conditioning** (pose, depth, edge maps).
 - **What it is:** A method to give structural control signals (like edge maps, pose skeletons, depth maps) to diffusion models.
 
 - **Why:** Original diffusion models follow text prompts loosely; ControlNet locks in geometry/structure.
@@ -55,7 +55,7 @@ This document explains and compares six key techniques for **controlling or pers
 
 <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*VWXAU7QrDf-uJTlm-VRJvA.png" width=100% height = 100%>
 
-- Lightweight alternative to ControlNet using smaller adapters.  
+- Lightweight alternative to ControlNet using smaller adapters.
 - **What it is:** A lighter version of ControlNet. Instead of duplicating the whole U-Net, it uses a small adapter module to inject control signals (e.g., canny edges, segmentation, depth).
 
 - **Why:** Makes control cheaper and faster.
@@ -72,7 +72,7 @@ This document explains and compares six key techniques for **controlling or pers
 
 <img src="https://dreambooth.github.io/DreamBooth_files/high_level.png" width=100% height = 100%>
 
-- Fine-tunes a diffusion model with images of a subject, linked to a **unique token**.  
+- Fine-tunes a diffusion model with images of a subject, linked to a **unique token**.
 
 - **What it is:** A personalization method where you fine-tune a diffusion model with a few images of a subject (person, object, pet), associating them with a unique token.
 
@@ -91,7 +91,7 @@ This document explains and compares six key techniques for **controlling or pers
 <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*45HR0mHSPyJIcRsDcY4h5Q.png" width=100% height = 100%>
 
 
-- Trains **new token embeddings** to represent objects/styles.  
+- Trains **new token embeddings** to represent objects/styles.
 - **What it is:** Instead of fine-tuning the whole model, you learn new word embeddings for a unique concept (e.g., a person, style).
 
 - **Why:** Lightweight (just a vector), injects new concepts into the existing model vocabulary.
@@ -121,10 +121,10 @@ This document explains and compares six key techniques for **controlling or pers
 
 Below is a **scatter plot** showing relative positions of these methods in terms of **efficiency vs fidelity**.
 
-- **X-axis = Efficiency (higher = lighter/faster).**  
-- **Y-axis = Fidelity (higher = better preservation/control).**  
+- **X-axis = Efficiency (higher = lighter/faster).**
+- **Y-axis = Fidelity (higher = better preservation/control).**
 
-![Efficiency vs Fidelity](diffusion_methods_tradeoff.png)
+![Efficiency vs Fidelity](./data/diffusion_methods_tradeoff.png)
 
 - The table shows approximate relative scores for efficiency (how lightweight/fast the method is) and fidelity (how well it preserves identity/style/structure).
 
@@ -144,10 +144,10 @@ Below is a **scatter plot** showing relative positions of these methods in terms
 ---
 
 ## 🔑 Key Insights
-- **DreamBooth** achieves the best fidelity, but is very heavy.  
-- **Textual Inversion** is ultra-efficient, but fidelity is limited.  
-- **LoRA** balances efficiency and fidelity.  
-- **ControlNet** gives structural control but is heavy, while **T2I-Adapter** is its lightweight cousin.  
+- **DreamBooth** achieves the best fidelity, but is very heavy.
+- **Textual Inversion** is ultra-efficient, but fidelity is limited.
+- **LoRA** balances efficiency and fidelity.
+- **ControlNet** gives structural control but is heavy, while **T2I-Adapter** is its lightweight cousin.
 - **IP-Adapter** is very efficient but fidelity is weaker than training-based methods.
 
 ---

@@ -1,5 +1,28 @@
 # 2D CV Playgrounds
 
+---
+## Setup a conda environment
+
+ ```
+ conda create -y -n cv_playgrounds python=3.10.12
+ conda activate cv_playgrounds
+
+ pip install -U torch torchvision torchao pytorchvideo torchcodec torchsummary torchshow torchmetrics
+ pip install -U transformers transformers_stream_generator diffusers
+ pip install datasets evaluate accelerate timm insightface onnxruntime peft
+ pip install ipykernel ipywidgets
+ pip install matplotlib opencv-python faiss-cpu imageio scikit-learn gradio==3.50 mediapy
+ pip install tiktoken num2words kaggle kagglehub einops qwen_vl_utils loadimg lovely_tensors
+ pip install tensorflow==2.19.0 tf_keras==2.19.0 tensorflow_probability
+ pip install "transformers[sentencepiece]"
+
+ # For MacOS
+ pip install tensorflow-metal
+ ```
+
+
+---
+
 ----
 
 ## Playgrounds

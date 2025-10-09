@@ -20,7 +20,6 @@
   </thead>
   <tbody>
     <tr>
-      <th rowspan="2">Vision</th>
       <td><a href="./DINOv2.ipynb">DINOv2.ipynb</a></td>
       <td>Hugging face DINOv2 demo</td>
     </tr>
