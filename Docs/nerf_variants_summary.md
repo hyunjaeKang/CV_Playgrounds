@@ -86,10 +86,10 @@ This document summarizes different **Neural Radiance Field (NeRF)** variants, th
 
 ## 3. Timeline of Methods
 
-- **2020** — NeRF (original) published. Baseline high-quality results, very slow.  
-- **2021** — FastNeRF, KiloNeRF, PlenOctrees introduce **acceleration** methods.  
-- **2022** — Plenoxels, InfoNeRF, Instant-NGP: focus on **faster training** and **sparse input robustness**.  
-- **2023** — K-Planes, FreeNeRF, MM-NeRF: scaling to **larger scenes, sparse input, and multi-modal data**.  
+- **2020** — NeRF (original) published. Baseline high-quality results, very slow.
+- **2021** — FastNeRF, KiloNeRF, PlenOctrees introduce **acceleration** methods.
+- **2022** — Plenoxels, InfoNeRF, Instant-NGP: focus on **faster training** and **sparse input robustness**.
+- **2023** — K-Planes, FreeNeRF, MM-NeRF: scaling to **larger scenes, sparse input, and multi-modal data**.
 
 ---
 
@@ -100,22 +100,22 @@ The following scatter plot (from the accompanying notebook) shows approximate **
 - **X-axis = Speed (training+rendering).**
 - **Y-axis = Quality (photorealism).**
 
-![NeRF Trade-off Plot](nerf_tradeoff.png)
+![NeRF Trade-off Plot](./data/nerf_tradeoff.png)
 
 ---
 
 ## 5. Sources (Representative Papers)
 
-- NeRF (Mildenhall et al., 2020).  
-- FastNeRF (Garbin et al., 2021).  
-- KiloNeRF (Reiser et al., 2021).  
-- PlenOctrees (Yu et al., ICCV 2021).  
-- Plenoxels (Fridovich-Keil et al., CVPR 2022).  
-- InfoNeRF (Kim et al., 2022).  
-- Instant-NGP (Müller et al., 2022).  
-- K-Planes (Fridovich-Keil et al., 2023).  
-- FreeNeRF (Yang et al., CVPR 2023).  
-- MM-NeRF (multi-modal NeRF, 2023).  
+- NeRF (Mildenhall et al., 2020).
+- FastNeRF (Garbin et al., 2021).
+- KiloNeRF (Reiser et al., 2021).
+- PlenOctrees (Yu et al., ICCV 2021).
+- Plenoxels (Fridovich-Keil et al., CVPR 2022).
+- InfoNeRF (Kim et al., 2022).
+- Instant-NGP (Müller et al., 2022).
+- K-Planes (Fridovich-Keil et al., 2023).
+- FreeNeRF (Yang et al., CVPR 2023).
+- MM-NeRF (multi-modal NeRF, 2023).
 
 ---
 
