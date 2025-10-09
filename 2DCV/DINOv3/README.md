@@ -63,9 +63,9 @@ https://ai.meta.com/resources/models-and-libraries/dinov3-downloads/
 
 
 ---
-### Reference:
+### References:
 
-- ***Papers***:
+- ***Paper***:
     - [DINOv3](https://arxiv.org/abs/2508.10104)
 
 - ***Blog***:

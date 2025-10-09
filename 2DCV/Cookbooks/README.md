@@ -39,9 +39,9 @@
 </table>
 
 ---
-### Reference:
+### References:
 
-- ***Blogs***:
+- ***Blog***:
     - [Training CLIP Model from Scratch for an Fashion Image Retrieval App](https://learnopencv.com/clip-model/)
     - [Understanding CLIP for vision language models](https://medium.com/self-supervised-learning/understanding-clip-for-vision-language-models-43b700a4aa2b)
     - [CLIP Model and The Importance of Multimodal Embeddings](https://towardsdatascience.com/clip-model-and-the-importance-of-multimodal-embeddings-1c8f6b13bf72/)

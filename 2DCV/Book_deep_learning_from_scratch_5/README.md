@@ -23,7 +23,7 @@
 
 
 ---
-### Reference:
+### References:
 
 - ***Github***:
     - https://github.com/oreilly-japan/deep-learning-from-scratch-5

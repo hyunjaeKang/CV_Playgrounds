@@ -34,9 +34,9 @@
 </table>
 
 ---
-### Reference:
+### References:
 
-- ***Blogs***:
+- ***Blog***:
     - https://learnopencv.com/iterative-closest-point-icp-explained/
     - https://learnopencv.com/3d-lidar-visualization/
 

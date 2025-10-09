@@ -46,10 +46,10 @@
 
 
 ---
-### Reference:
+### References:
 
 
-- ***Papers***:
+- ***Paper***:
     - [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_high.pdf)
     - [3D Gaussian Splatting as Markov Chain Monte Carlo](https://arxiv.org/abs/2404.09591?utm_source=chatgpt.com)
     - [3D Gaussian Splatting as Markov Chain Monte Carlo - NIPS papers](https://proceedings.neurips.cc/paper_files/paper/2024/file/93be245fce00a9bb2333c17ceae4b732-Paper-Conference.pdf?utm_source=chatgpt.com)

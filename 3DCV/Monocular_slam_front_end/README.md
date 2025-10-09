@@ -43,7 +43,7 @@ python main.py
 
 ----
 
-### Reference:
+### References:
 - ***Blog***:
     - https://learnopencv.com/monocular-slam-in-python/
 - ***Github***:

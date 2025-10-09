@@ -6,7 +6,7 @@
 ```
 
 # pwd ~/CV_Playgrounds/3DCV/triangle_splatting
-# nvcc --version 
+# nvcc --version
 #   nvcc: NVIDIA (R) Cuda compiler driver
 #   Copyright (c) 2005-2025 NVIDIA Corporation
 #   Built on Tue_May_27_02:21:03_PDT_2025
@@ -19,7 +19,7 @@ cd temp_triangle-splatting
 conda create -y -n triangle_splatting python=3.11
 conda activate triangle_splatting
 
-pip install ipykernel ipywidgets 
+pip install ipykernel ipywidgets
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu129
 pip install tqdm plyfile open3d lpips mediapy opencv-python gdown
 
@@ -46,10 +46,9 @@ pip install .
 
 
 ---
-### Reference:
+### References:
 
-
-- ***Papers***:
+- ***Paper***:
     - [Triangle Splatting for Real-Time Radiance Field Rendering](https://arxiv.org/abs/2505.19175)
 
 - ***Blog***:

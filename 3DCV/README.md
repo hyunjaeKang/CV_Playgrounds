@@ -56,9 +56,10 @@
 -----
 
 
-### Reference:
+### References:
 
-- ***Papers***:
+- ***Paper***:
+
     - **NeRF**: Representing Scenes as Neural Radiance Fields for View Synthesis [[arXiv]](https://arxiv.org/abs/2003.08934)
     - **FastNeRF**: High-Fidelity Neural Rendering at 200FPS [[arXiv]](https://arxiv.org/abs/2103.10380)
     - **KiloNeRF**: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs [[arXiv]](https://arxiv.org/abs/2103.13744)

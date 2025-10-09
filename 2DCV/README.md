@@ -20,9 +20,6 @@
  pip install tensorflow-metal
  ```
 
-
----
-
 ----
 
 ## Playgrounds
@@ -69,11 +66,10 @@
 
 -----
 
-----
 
-### Reference:
+### References :
 
-- ***Papers***:
+- ***Paper***:
     - [DINOv3](https://arxiv.org/abs/2508.10104)
 
 

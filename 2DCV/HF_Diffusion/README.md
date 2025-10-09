@@ -28,7 +28,7 @@
 | [Adapters-Textual Inversion](https://huggingface.co/docs/diffusers/v0.34.0/en/using-diffusers/textual_inversion_inference) | <p> [04.06.Adapter_textual_inversion](./04.06.Adapter_textual_inversion.ipynb) </p>  |
 
 ---
-### Reference:
+### References:
 
 - ***Blog***:
     - [Hugging Face Diffusers](https://huggingface.co/docs/diffusers/v0.34.0/en/index)
