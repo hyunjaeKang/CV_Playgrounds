@@ -1,6 +1,7 @@
 # GSplat
 
 
+----
 
 ### Setup a conda environment
 
@@ -11,10 +12,10 @@
 
  conda create -y -n gsplat python=3.10.12
  conda activate gsplat
- 
- 
+
+
  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu129
- 
+
  git clone https://github.com/nerfstudio-project/gsplat.git temp_gsplat
  pip install -e ./temp_gsplat
 
@@ -22,8 +23,11 @@
  pip install ipykernel ipywidgets gdown torchcodec av torchshow
  ```
 
-### Notebooks for gsplat 
-- **3DGS Methods**[[link](./3DGS_4Methods.md)] : Default, 3DGUT, MCMC, 2DGS
+---
+
+
+### Notebooks for gsplat
+- **3DGS Methods**[[link](../../Docs/3DGS_4Methods.md)] : Default, 3DGUT, MCMC, 2DGS
 
 | Notebook | Data | Rendered Video |
 | ------ | -----  | ---- |

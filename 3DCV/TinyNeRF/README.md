@@ -17,7 +17,7 @@
  	</tr>
  	<tr>
         <td><a href="./00_NERF.ipynb"><b>NeRF (Original, 2020)</b></a></td>
-   		<td> 
+   		<td>
             <p> <b>- Core idea: </b> Neural network mapping (3D coords + viewing direction → color + density). </p>
             <p> <b>- Pros: </b> Very high-quality novel view synthesis. </p>
             <p> <b>- Cons: </b> Training takes days, rendering seconds per frame. </p>
@@ -28,7 +28,7 @@
  	</tr>
 	<tr>
         <td><a href="./01_FastNeRF.ipynb"> <b>FastNeRF (2021)</b></a></td>
-   		<td> 
+   		<td>
             <p> <b>- Core idea: </b> Accelerate NeRF rendering. </p>
             <p> <b>- Technique: </b> Decomposes MLP into two functions (position, view), caches results in lookup tables. </p>
             <p> <b>- Pros: </b> Real-time rendering. </p>
@@ -40,7 +40,7 @@
  	</tr>
 	<tr>
         <td><a href="./02_KiloNeRF.ipynb"><b>KiloNeRF (2021)</b></a></td>
-   		<td> 
+   		<td>
             <p> <b>- Core idea: </b> Speed up NeRF. </p>
             <p> <b>- Technique: </b> Thousands of small MLPs (local regions). </p>
             <p> <b>- Pros: </b> Parallelized fast rendering. </p>
@@ -52,7 +52,7 @@
  	</tr>
 	<tr>
         <td><a href="./03_PlenOctreesNeRF.ipynb"> <b>PlenOctrees (2021)</b></a></td>
-   		<td> 
+   		<td>
             <p> <b>- Core idea: </b> Real-time rendering post-training. </p>
             <p> <b>- Technique: </b> Converts NeRF into sparse octree with spherical harmonics. </p>
             <p> <b>- Pros: </b> Extremely fast rendering. </p>
@@ -64,7 +64,7 @@
  	</tr>
     <tr>
         <td><a href="./04_PlenoxelsNeRF.ipynb"> <b>Plenoxels (2022)</b></a></td>
-   		<td> 
+   		<td>
             <p> <b>- Core idea: </b> Fast training. </p>
             <p> <b>- Technique: </b> Sparse voxel grid with spherical harmonics (no MLP). </p>
             <p> <b>- Pros: </b> Training in minutes, competitive rendering. </p>
@@ -76,7 +76,7 @@
  	</tr>
     <tr>
         <td><a href="./05_InfoNeRF.ipynb"> <b>InfoNeRF (2022)</b></a></td>
-   		<td> 
+   		<td>
             <p> <b>- Core idea: </b> Few-shot / sparse input NeRF. </p>
             <p> <b>- Technique: </b> Info-theoretic regularization (mutual information). </p>
             <p> <b>- Pros: </b> Works with few images. </p>
@@ -88,7 +88,7 @@
  	</tr>
     <tr>
         <td><a href="./06_InstantNERF.ipynb"> <b>Instant NeRF (2022)</b></a></td>
-   		<td> 
+   		<td>
             <p> <b>- Core idea: </b> Drastically accelerate. </p>
             <p> <b>- Technique: </b> Multi-resolution hash encoding + tiny CUDA MLP. </p>
             <p> <b>- Pros: </b> Training in seconds-minutes, real-time rendering. </p>
@@ -100,7 +100,7 @@
  	</tr>
     <tr>
         <td><a href="./07_K-plan_NERF.ipynb"> <b>K-Planes / K-Plan NeRF (2023)</b></a></td>
-   		<td> 
+   		<td>
             <p> <b>- Core idea: </b> Scale to large / dynamic scenes. </p>
             <p> <b>- Technique: </b> Scene partitioning with shared priors. </p>
             <p> <b>- Pros: </b> Works for bigger, complex scenes. </p>
@@ -112,7 +112,7 @@
  	</tr>
     <tr>
         <td><a href="./08_FreeNERF.ipynb"> <b>FreeNeRF (2023)</b></a></td>
-   		<td> 
+   		<td>
             <p> <b>- Core idea: </b> Sparse input robustness. </p>
             <p> <b>- Technique: </b> Geometry regularization + self-distillation. </p>
             <p> <b>- Pros: </b> Better with few input views. </p>
@@ -145,10 +145,10 @@
 
 ## 3. Timeline of Methods
 
-- **2020** — NeRF (original) published. Baseline high-quality results, very slow.  
-- **2021** — FastNeRF, KiloNeRF, PlenOctrees introduce **acceleration** methods.  
-- **2022** — Plenoxels, InfoNeRF, Instant-NGP: focus on **faster training** and **sparse input robustness**.  
-- **2023** — K-Planes, FreeNeRF, MM-NeRF: scaling to **larger scenes, sparse input, and multi-modal data**.  
+- **2020** — NeRF (original) published. Baseline high-quality results, very slow.
+- **2021** — FastNeRF, KiloNeRF, PlenOctrees introduce **acceleration** methods.
+- **2022** — Plenoxels, InfoNeRF, Instant-NGP: focus on **faster training** and **sparse input robustness**.
+- **2023** — K-Planes, FreeNeRF, MM-NeRF: scaling to **larger scenes, sparse input, and multi-modal data**.
 
 ---
 

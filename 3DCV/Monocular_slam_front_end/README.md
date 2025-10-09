@@ -10,7 +10,7 @@
 
 ### Update the system for python demo
 
-- **Install dependency:** For Ubuntu/Debian execute the below commands to install library dependencies,   
+- **Install dependency:** For Ubuntu/Debian execute the below commands to install library dependencies,
 
 ```
 sudo apt-get install libglew-dev
@@ -22,7 +22,7 @@ sudo apt-get install libjpeg-dev libpng-dev libtiff5-dev libopenexr-dev
 
 - ***Install pangolin*** on the conda enviroment ([3dcv_playgrounds](../README.md#setup-a-conda-environment))
 ```
-# pwd 
+# pwd
 # ~/CV_Playgrounds/3DCV/Monocular_slam_front_end
 
 conda activate 3dcv_playgrounds
@@ -30,7 +30,7 @@ conda activate 3dcv_playgrounds
 git clone git@github.com:hyunjaeKang/pangolin.git temp_pangolin
 cd temp_pangolin
 mkdir build
-cd build 
+cd build
 cmake -DBUILD_PANGOLIN_FFMPEG=OFF ..
 cd ..
 python setup.py install
@@ -44,5 +44,7 @@ python main.py
 ----
 
 ### Reference:
- - https://learnopencv.com/monocular-slam-in-python/
- - https://github.com/spmallick/learnopencv/tree/master/Monocular%20SLAM%20for%20Robotics%20implementation%20in%20python
+- ***Blog***:
+    - https://learnopencv.com/monocular-slam-in-python/
+- ***Github***:
+    - https://github.com/spmallick/learnopencv/tree/master/Monocular%20SLAM%20for%20Robotics%20implementation%20in%20python

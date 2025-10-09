@@ -221,7 +221,7 @@ Putting it all together, here’s a comparative summary across the four methods 
 ---
 
 
-![alt text](./data/image.png)
+![alt text](./data/3DGS_Methods.png)
 
 ---
 
