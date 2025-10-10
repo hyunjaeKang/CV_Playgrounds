@@ -40,12 +40,22 @@
     <th style="text-align: center; padding: 10px;" >
       <img src="https://github.com/hyunjaeKang/CV_Playgrounds/blob/main/3DCV/GSPLAT/data/sunset.jpeg?raw=true" width="200px" height="150px">
     </th>
-    <th style="text-align: center; padding: 10px;">
+    <!-- <th style="text-align: center; padding: 10px;">
       <video width="200" height="150" controls><source src="https://github.com/hyunjaeKang/CV_Playgrounds/raw/main/3DCV/GSPLAT/output/sunset_100000_1000_3dgs.mp4" type="video/mp4"></video>
     </th>
     <th style="text-align: center; padding: 10px;">
     <video width="200" height="150" controls><source src="https://github.com/hyunjaeKang/CV_Playgrounds/raw/main/3DCV/GSPLAT/output/sunset_100000_100000_3dgs.mp4" type="video/mp4"></video>
-    </th>
+    </th> -->
+    <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/18KpAqVANjl0BGcq0x4rwWhGChR7yMC2g" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=18KpAqVANjl0BGcq0x4rwWhGChR7yMC2g" width="200" height="150" alt="Source Video 1">
+      </a>
+    </td>
+    <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1-3fvl3c3ahd9XUBoc-AAahtHR3nrWWh8" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1-3fvl3c3ahd9XUBoc-AAahtHR3nrWWh8" width="200" height="150" alt="Source Video 1">
+      </a>
+    </td>
     </tr>
   </tbody>
   <tbody>
@@ -53,12 +63,22 @@
     <th style="text-align: center; padding: 10px;" >
       <img src="https://github.com/hyunjaeKang/CV_Playgrounds/blob/main/3DCV/GSPLAT/data/swim_pool.jpeg?raw=true" width="200px" height="150px">
     </th>
-    <th style="text-align: center; padding: 10px;">
+    <!-- <th style="text-align: center; padding: 10px;">
     <video width="200" height="150" controls><source src="https://github.com/hyunjaeKang/CV_Playgrounds/raw/main/3DCV/GSPLAT/output/swim_pool_100000_1000_3dgs.mp4" type="video/mp4"></video>
     </th>
     <th style="text-align: center; padding: 10px;">
     <video width="200" height="150" controls><source src="https://github.com/hyunjaeKang/CV_Playgrounds/raw/main/3DCV/GSPLAT/output/swim_pool_100000_100000_3dgs.mp4" type="video/mp4"></video>
-    </th>
+    </th> -->
+    <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1VJ2cKaiCaHWM3d4r2Vf6UiEtBQDQPIjX" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1VJ2cKaiCaHWM3d4r2Vf6UiEtBQDQPIjX" width="200" height="150" alt="Source Video 1">
+      </a>
+    </td>
+    <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/19tS8uJuz4yjw70IwBvK265d9QmRrAVpL" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=19tS8uJuz4yjw70IwBvK265d9QmRrAVpL" width="200" height="150" alt="Source Video 1">
+      </a>
+    </td>
     </tr>
   </tbody>
 </table>
