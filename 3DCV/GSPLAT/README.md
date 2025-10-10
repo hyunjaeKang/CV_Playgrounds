@@ -25,24 +25,196 @@
 
 ---
 
+- **Image rendering with 3DGS on custom images** ([Notebook](https://github.com/hyunjaeKang/CV_Playgrounds/blob/main/3DCV/GSPLAT/fit_a_single_image.ipynb))
 
-### Notebooks for gsplat
-- **3DGS Methods**[[link](../../Docs/3DGS_4Methods.md)] : Default, 3DGUT, MCMC, 2DGS
+<table  border="1">
+  <thead>
+    <tr>
+      <th style="text-align: center;" >Source image</th>
+      <th style="text-align: center;" >Image fitting(iteration : 1000)</th>
+      <th style="text-align: center;" >Image fitting(iteration : 100000)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <th style="text-align: center; padding: 10px;" >
+      <img src="https://github.com/hyunjaeKang/CV_Playgrounds/blob/main/3DCV/GSPLAT/data/sunset.jpeg?raw=true" width="200px" height="150px">
+    </th>
+    <th style="text-align: center; padding: 10px;">
+      <video width="200" height="150" controls><source src="https://github.com/hyunjaeKang/CV_Playgrounds/raw/main/3DCV/GSPLAT/output/sunset_100000_1000_3dgs.mp4" type="video/mp4"></video>
+    </th>
+    <th style="text-align: center; padding: 10px;">
+    <video width="200" height="150" controls><source src="https://github.com/hyunjaeKang/CV_Playgrounds/raw/main/3DCV/GSPLAT/output/sunset_100000_100000_3dgs.mp4" type="video/mp4"></video>
+    </th>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+    <th style="text-align: center; padding: 10px;" >
+      <img src="https://github.com/hyunjaeKang/CV_Playgrounds/blob/main/3DCV/GSPLAT/data/swim_pool.jpeg?raw=true" width="200px" height="150px">
+    </th>
+    <th style="text-align: center; padding: 10px;">
+    <video width="200" height="150" controls><source src="https://github.com/hyunjaeKang/CV_Playgrounds/raw/main/3DCV/GSPLAT/output/swim_pool_100000_1000_3dgs.mp4" type="video/mp4"></video>
+    </th>
+    <th style="text-align: center; padding: 10px;">
+    <video width="200" height="150" controls><source src="https://github.com/hyunjaeKang/CV_Playgrounds/raw/main/3DCV/GSPLAT/output/swim_pool_100000_100000_3dgs.mp4" type="video/mp4"></video>
+    </th>
+    </tr>
+  </tbody>
+</table>
 
-| Notebook | Data | Rendered Video |
-| ------ | -----  | ---- |
-|[fit_a_single_image.ipynb](./fit_a_single_image.ipynb) | [sunset](./data/sunset.jpeg) , [swim_pool](./data/swim_pool.jpeg) | [sunset](https://drive.google.com/file/d/1-3fvl3c3ahd9XUBoc-AAahtHR3nrWWh8/view?usp=sharing), [swim_pool](https://drive.google.com/file/d/19tS8uJuz4yjw70IwBvK265d9QmRrAVpL/view?usp=sharing) |
-|[fit_a_colmap_capture_garden.ipynb](./fit_a_colmap_capture_garden.ipynb) | 360_V2 (garden) | - |
-|[fit_a_colmap_capture_bilarf_data.ipynb](./fit_a_colmap_capture_bilarf_data.ipynb) |bilarf dataset | - |
-|[fit_a_colmap_capture_zipnerf.ipynb](./fit_a_colmap_capture_zipnerf.ipynb) | zipnerf dataset | - |
-|[fit_a_colmap_capture_custom_data_00.ipynb](./fit_a_colmap_capture_custom_data_00.ipynb) | [waikiki_statue](https://drive.google.com/file/d/1v_r7gjiomJNwemsXKaaJNpcTCFKl-Nbj/view?usp=sharing) | [waikiki_statue](https://drive.google.com/file/d/1uROK8E-OUDMJsjC9elP0-Y_3CspgfvpQ/view?usp=sharing) |
-|[fit_a_colmap_capture_custom_data_01.ipynb](./fit_a_colmap_capture_custom_data_01.ipynb) | [duke_statue](https://drive.google.com/file/d/1fFvegLaEc_pGmputDUD6InIQFf8auEC1/view?usp=sharing) | [duke_statue](https://drive.google.com/file/d/11Mhuofe22Z-TigPum_pbRNcPDKooxUrS/view?usp=sharing)|
-|[fit_a_colmap_capture_custom_data_02.ipynb](./fit_a_colmap_capture_custom_data_02.ipynb) | [hanauma_bay](https://drive.google.com/file/d/1eNb_GkkOKUSq_6cS8g4_cuPJ9CZvPBkQ/view?usp=sharing) | [hanauma_bay](https://drive.google.com/file/d/1x5Q5YphHqtqVi4GzE_0xyEKhiIqLEwQj/view?usp=sharing) |
-|[fit_a_colmap_capture_custom_data_03.ipynb](./fit_a_colmap_capture_custom_data_03.ipynb) | [Celebrity_Gym](https://drive.google.com/file/d/1jx1jtZQnxe1lmzzKQTBKuffmic4Did62/view?usp=sharing) | [Celebrity_Gym](https://drive.google.com/file/d/1UQZVehz2ue7EVPIXWfUKTTBQEIHKEPRj/view?usp=sharing)|
-|[fit_a_colmap_capture_custom_data_04.ipynb](./fit_a_colmap_capture_custom_data_04.ipynb) | [Celebrity_Edge_GradPlaza](https://drive.google.com/file/d/1T6naoj4bNRZOdoKjLmI3WAd1cp-NBCTR/view?usp=sharing) |[Celebrity_Edge_GradPlaza](https://drive.google.com/file/d/1ZWzRsRJi6EcpCElUU5sU8gkSCan5XVGF/view?usp=sharing) |
-|[fit_a_colmap_capture_custom_data_05.ipynb](./fit_a_colmap_capture_custom_data_05.ipynb) | [Celebrity_Edge_GradPlaza_2](https://drive.google.com/file/d/1SnKE3e-2EDU1ocYfDes3GIC4Zmmd4rSI/view?usp=sharing) |[Celebrity_Edge_GradPlaza_2](https://drive.google.com/file/d/1I8w8KmTyd51QEgVcvMMuB5y5Z5RiqYKe/view?usp=sharing) |
-|[fit_a_colmap_capture_custom_data_06.ipynb](./fit_a_colmap_capture_custom_data_06.ipynb) | [WhitePass_Train](https://drive.google.com/file/d/1LdXaVkme3egIwiMMevApDnwZcMUv0VvK/view?usp=sharing) |[WhitePass_Train](https://drive.google.com/file/d/1d97aLz4nj5GwVz94YR11SScAbuDSu44v/view?usp=sharing) |
-|[fit_a_colmap_capture_custom_data_07.ipynb](./fit_a_colmap_capture_custom_data_07.ipynb) | [Alaska_00](https://drive.google.com/file/d/1LCjjapYzev3hbvaiOY28EIU53OkEvNqt/view?usp=sharing) |[Alaska_00](https://drive.google.com/file/d/1e4kpLT8xHDGL33naoeTXYEYzUnGWeMbk/view?usp=sharing) |
+
+- **Rendered a video using GSPLAT(3DGS, 3DGUT, 3DGS-MCMC, 2DGS) on custom datasets**
+
+
+<table border="1">
+  <thead>
+    <tr>
+      <th style="text-align:center;padding:10px;">Notebook</th>
+      <th style="text-align: center;">Source Video</th>
+      <th style="text-align: center;">Rendered Video (3DGS, 3DGUT, 3DGS-MCMC, 2DGS)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://github.com/hyunjaeKang/CV_Playgrounds/blob/main/3DCV/GSPLAT/fit_a_colmap_capture_custom_data_00.ipynb" target="_blank">
+        Statue1
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1v_r7gjiomJNwemsXKaaJNpcTCFKl-Nbj" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1v_r7gjiomJNwemsXKaaJNpcTCFKl-Nbj" width="150" height="130" alt="Source Video 1">
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1uROK8E-OUDMJsjC9elP0-Y_3CspgfvpQ" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1uROK8E-OUDMJsjC9elP0-Y_3CspgfvpQ" width="600" height="130" alt="Rendered Video 1">
+      </a>
+      </td>
+    </tr>
+    <tr>
+    <td style="text-align:center;padding:10px;">
+      <a href="https://github.com/hyunjaeKang/CV_Playgrounds/blob/main/3DCV/GSPLAT/fit_a_colmap_capture_custom_data_01.ipynb" target="_blank">
+        Statue2
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1fFvegLaEc_pGmputDUD6InIQFf8auEC1" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1fFvegLaEc_pGmputDUD6InIQFf8auEC1" width="150" height="130" alt="Source Video 2">
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/11Mhuofe22Z-TigPum_pbRNcPDKooxUrS" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=11Mhuofe22Z-TigPum_pbRNcPDKooxUrS" width="600" height="130" alt="Rendered Video 2">
+      </a>
+      </td>
+    </tr>
+    <tr>
+    <td style="text-align:center;padding:10px;">
+      <a href="https://github.com/hyunjaeKang/CV_Playgrounds/blob/main/3DCV/GSPLAT/fit_a_colmap_capture_custom_data_02.ipynb" target="_blank">
+        Bay
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1eNb_GkkOKUSq_6cS8g4_cuPJ9CZvPBkQ" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1eNb_GkkOKUSq_6cS8g4_cuPJ9CZvPBkQ" width="150" height="130" alt="Source Video 3">
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1x5Q5YphHqtqVi4GzE_0xyEKhiIqLEwQj" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1x5Q5YphHqtqVi4GzE_0xyEKhiIqLEwQj" width="600" height="130" alt="Rendered Video 3">
+      </a>
+      </td>
+    </tr>
+    <tr>
+    <td style="text-align:center;padding:10px;">
+      <a href="https://github.com/hyunjaeKang/CV_Playgrounds/blob/main/3DCV/GSPLAT/fit_a_colmap_capture_custom_data_03.ipynb" target="_blank">
+        Gym
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1jx1jtZQnxe1lmzzKQTBKuffmic4Did62" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1jx1jtZQnxe1lmzzKQTBKuffmic4Did62" width="150" height="130" alt="Source Video 4">
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1UQZVehz2ue7EVPIXWfUKTTBQEIHKEPRj" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1UQZVehz2ue7EVPIXWfUKTTBQEIHKEPRj" width="600" height="130" alt="Rendered Video 4">
+      </a>
+      </td>
+    </tr>
+    <tr>
+    <td style="text-align:center;padding:10px;">
+      <a href="https://github.com/hyunjaeKang/CV_Playgrounds/blob/main/3DCV/GSPLAT/fit_a_colmap_capture_custom_data_04.ipynb" target="_blank">
+        GradPlaza
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1T6naoj4bNRZOdoKjLmI3WAd1cp-NBCTR" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1T6naoj4bNRZOdoKjLmI3WAd1cp-NBCTR" width="150" height="130" alt="Source Video 5">
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1ZWzRsRJi6EcpCElUU5sU8gkSCan5XVGF" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1ZWzRsRJi6EcpCElUU5sU8gkSCan5XVGF" width="600" height="130" alt="Rendered Video 5">
+      </a>
+      </td>
+    </tr>
+    <tr>
+    <td style="text-align:center;padding:10px;">
+      <a href="https://github.com/hyunjaeKang/CV_Playgrounds/blob/main/3DCV/GSPLAT/fit_a_colmap_capture_custom_data_05.ipynb" target="_blank">
+        GradPlaza2
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1SnKE3e-2EDU1ocYfDes3GIC4Zmmd4rSI" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1SnKE3e-2EDU1ocYfDes3GIC4Zmmd4rSI" width="150" height="130" alt="Source Video 6">
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1I8w8KmTyd51QEgVcvMMuB5y5Z5RiqYKe" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1I8w8KmTyd51QEgVcvMMuB5y5Z5RiqYKe" width="600" height="130" alt="Rendered Video 6">
+      </a>
+      </td>
+    </tr>
+    <tr>
+    <td style="text-align:center;padding:10px;">
+      <a href="https://github.com/hyunjaeKang/CV_Playgrounds/blob/main/3DCV/GSPLAT/fit_a_colmap_capture_custom_data_06.ipynb" target="_blank">
+        WhitePass
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1LdXaVkme3egIwiMMevApDnwZcMUv0VvK" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1LdXaVkme3egIwiMMevApDnwZcMUv0VvK" width="150" height="130" alt="Source Video 7">
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1d97aLz4nj5GwVz94YR11SScAbuDSu44v" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1d97aLz4nj5GwVz94YR11SScAbuDSu44v" width="600" height="130" alt="Rendered Video 7">
+      </a>
+      </td>
+    </tr>
+    <tr>
+    <td style="text-align:center;padding:10px;">
+      <a href="https://github.com/hyunjaeKang/CV_Playgrounds/blob/main/3DCV/GSPLAT/fit_a_colmap_capture_custom_data_07.ipynb" target="_blank">
+        Alaska
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1LCjjapYzev3hbvaiOY28EIU53OkEvNqt" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1LCjjapYzev3hbvaiOY28EIU53OkEvNqt" width="150" height="130" alt="Source Video 8">
+      </a>
+      </td>
+      <td style="text-align:center;padding:10px;">
+      <a href="https://drive.google.com/file/d/1e4kpLT8xHDGL33naoeTXYEYzUnGWeMbk" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1e4kpLT8xHDGL33naoeTXYEYzUnGWeMbk" width="600" height="130" alt="Rendered Video 8">
+      </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 ---
