@@ -5,8 +5,8 @@
 
 ```
 
-# pwd ~/CV_Playgrounds/3DCV/triangle_splatting
-# nvcc --version
+# pwd ~/CV_Playgrounds/3DCV/Triangle_splatting
+# nvcc --version 
 #   nvcc: NVIDIA (R) Cuda compiler driver
 #   Copyright (c) 2005-2025 NVIDIA Corporation
 #   Built on Tue_May_27_02:21:03_PDT_2025

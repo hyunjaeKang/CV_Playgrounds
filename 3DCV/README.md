@@ -12,6 +12,7 @@
  pip install matplotlib opencv-python imageio scikit-learn gdown
  pip install -U torch torchvision torchao pytorchvideo torchcodec torchshow
  pip install PyOpenGL glfw laspy plyfile imgui open3d pyquaternion
+ pip install easydict wget
 
  conda install bioconda::pangolin
  ```
