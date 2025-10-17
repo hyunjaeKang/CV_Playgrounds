@@ -51,6 +51,10 @@
       <th align="left" rowspan="1"><a href="./Triangle_splatting/">Triangle_splatting</a></th>
       <th align="left" rowspan="1">Demo notebooks for Triangle Splatting with various datasets</th>
     </tr>
+    <tr>
+      <th align="left" rowspan="1"><a href="./Triangle_splatting2/">Triangle_splatting2</a></th>
+      <th align="left" rowspan="1">Test notebooks for Triangle Splatting with custom datasets</th>
+    </tr>
   </tbody>
 </table>
 
