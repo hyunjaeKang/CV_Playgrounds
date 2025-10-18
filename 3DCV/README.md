@@ -55,6 +55,10 @@
       <th align="left" rowspan="1"><a href="./Triangle_splatting2/">Triangle_splatting2</a></th>
       <th align="left" rowspan="1">Test notebooks for Triangle Splatting with custom datasets</th>
     </tr>
+    <tr>
+      <th align="left" rowspan="1"><a href="./SFA3D/">SFA3D</a></th>
+      <th align="left" rowspan="1">Demo notebooks for Super Fast and Accurate 3D Object Detection based on 3D LiDAR Point Clouds</th>
+    </tr>
   </tbody>
 </table>
 

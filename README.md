@@ -47,7 +47,7 @@
   </tbody>
   <tbody>
       <tr>
-        <th align="left" rowspan="5"><a href="./3DCV/">3D Computer Vision</a></th>
+        <th align="left" rowspan="7"><a href="./3DCV/">3D Computer Vision</a></th>
         <th align="left" rowspan="1"><a href="./3DCV/Cookbooks/">Cookbooks</a></th>
         <th align="left" rowspan="1">A collection of notebook for 3D Computer vision</i></th>
       </tr>
@@ -67,8 +67,16 @@
         <th align="left" rowspan="1"><a href="./3DCV/Triangle_splatting/">Triangle_splatting</a></th>
         <th align="left" rowspan="1">Demo notebooks for Triangle Splatting with various datasets</th>
       </tr>
+      <tr>
+        <th align="left" rowspan="1"><a href="./3DCV/Triangle_splatting2/">Triangle_splatting2</a></th>
+        <th align="left" rowspan="1">Test notebooks for Triangle Splatting with custom datasets</th>
+      </tr>
+      <tr>
+        <th align="left" rowspan="1"><a href="./3DCV/SFA3D/">SFA3D</a></th>
+        <th align="left" rowspan="1">Demo notebooks for Super Fast and Accurate 3D Object Detection based on 3D LiDAR Point Clouds</th>
+      </tr>
     </tbody>
-     <tbody>
+    <tbody>
       <tr>
         <th align="left" colspan="2"><a href="./Docs/">Docs</a></th>
         <th align="left" rowspan="1">Study resources for 2D/3D computer Vision</i></th>
