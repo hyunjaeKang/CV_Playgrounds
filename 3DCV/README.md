@@ -91,6 +91,7 @@
 - ***Blog***:
     - https://learnopencv.com/iterative-closest-point-icp-explained/
     - https://learnopencv.com/3d-lidar-visualization/
+    - https://learnopencv.com/3d-lidar-object-detection/
     - https://learnopencv.com/monocular-slam-in-python/
     - [3D Gaussian Splatting Introduction – Paper Explanation & Training on Custom Datasets with NeRF Studio Gsplats](https://learnopencv.com/3d-gaussian-splatting/)
     - [gsplat documentation](https://docs.gsplat.studio/main/index.html)
@@ -103,4 +104,5 @@
     - [Papers-in-100-Lines-of-Code](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code/tree/main)
     - [gsplat](https://github.com/nerfstudio-project/gsplat/tree/main)
     - https://github.com/trianglesplatting/triangle-splatting
-
+    - [SFA3D](https://github.com/maudzung/SFA3D)
+    
