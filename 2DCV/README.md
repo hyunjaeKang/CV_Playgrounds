@@ -15,6 +15,7 @@
  pip install tiktoken num2words kaggle kagglehub einops qwen_vl_utils loadimg lovely_tensors
  pip install tensorflow==2.19.0 tf_keras==2.19.0 tensorflow_probability
  pip install "transformers[sentencepiece]"
+ pip install ultralytics seaborn onnx onnxsim onnxruntime-gpu
 
  # For MacOS
  pip install tensorflow-metal
