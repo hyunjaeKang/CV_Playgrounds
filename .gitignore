@@ -209,5 +209,5 @@ __marimo__/
 
 # Temp folder and file
 **temp**
-
+**/runs**
 .DS_Store
