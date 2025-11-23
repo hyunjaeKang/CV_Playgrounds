@@ -211,3 +211,4 @@ __marimo__/
 **temp**
 **/runs**
 .DS_Store
+**.ts**
