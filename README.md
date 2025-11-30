@@ -16,7 +16,7 @@
   </thead>
   <tbody>
     <tr>
-      <th align="left" rowspan="7"><a href="./2DCV/">2D Computer Vision</a></th>
+      <th align="left" rowspan="8"><a href="./2DCV/">2D Computer Vision</a></th>
       <th align="left" rowspan="1"><a href="./2DCV/Cookbooks/">Cookbooks</a></th>
       <th align="left" rowspan="1">A collection of notebook for 2D Computer vision</i></th>
     </tr>
@@ -43,6 +43,10 @@
     <tr>
       <th align="left" rowspan="1"><a href="./2DCV/DINOv3/">DINOv3</a></th>
       <th align="left" rowspan="1">Demo Jupyter notebooks for DINOv3 model</th>
+    </tr>
+    <tr>
+        <th align="left" rowspan="1"><a href="./2DCV/Yolo">Yolo</a></th>
+        <th align="left" rowspan="1">Playgrounds for YOLO models and Ultralytics's models</th>
     </tr>
   </tbody>
   <tbody>
@@ -72,8 +76,8 @@
         <th align="left" rowspan="1">Test notebooks for Triangle Splatting with custom datasets</th>
       </tr>
       <tr>
-        <th align="left" rowspan="1"><a href="./3DCV/SFA3D/">SFA3D</a></th>
-        <th align="left" rowspan="1">Demo notebooks for Super Fast and Accurate 3D Object Detection based on 3D LiDAR Point Clouds</th>
+        <th align="left" rowspan="1"><a href="./ADAS">ADAS</a></th>
+        <th align="left" rowspan="1">Demo notebooks for ADAS system</th>
       </tr>
     </tbody>
     <tbody>

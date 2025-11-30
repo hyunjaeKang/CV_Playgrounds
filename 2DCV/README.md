@@ -62,6 +62,10 @@
       <th align="left" rowspan="1"><a href="./DINOv3/">DINOv3</a></th>
       <th align="left" rowspan="1">Demo Jupyter notebooks for DINOv3 model</th>
     </tr>
+    <tr>
+      <th align="left" rowspan="1"><a href="./Yolo">Yolo</a></th>
+      <th align="left" rowspan="1">Playgrounds for YOLO models and Ultralytics's models</th>
+    </tr>
   </tbody>
 </table>
 

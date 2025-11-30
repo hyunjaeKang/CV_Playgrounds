@@ -56,8 +56,8 @@
       <th align="left" rowspan="1">Test notebooks for Triangle Splatting with custom datasets</th>
     </tr>
     <tr>
-      <th align="left" rowspan="1"><a href="./SFA3D/">SFA3D</a></th>
-      <th align="left" rowspan="1">Demo notebooks for Super Fast and Accurate 3D Object Detection based on 3D LiDAR Point Clouds</th>
+      <th align="left" rowspan="1"><a href="./ADAS">ADAS</a></th>
+      <th align="left" rowspan="1">Demo notebooks for ADAS system</th>
     </tr>
   </tbody>
 </table>
