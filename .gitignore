@@ -212,3 +212,4 @@ __marimo__/
 **/runs**
 .DS_Store
 **.ts**
+.vscode
