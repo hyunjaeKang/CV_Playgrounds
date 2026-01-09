@@ -213,3 +213,4 @@ __marimo__/
 .DS_Store
 **.ts**
 .vscode
+.sync.ffs_db
