@@ -36,7 +36,7 @@ This document explains and compares six key techniques for **controlling or pers
 
 ## 🔹 3. ControlNet
 
-<img src="https://docs.nvidia.com/nemo-framework/user-guide/latest/_images/controlnet-structure.png" width=100% height = 100%>
+<img src="https://learnopencv.com/wp-content/uploads/2023/03/controlnet-with-stable-diffusion.png" width=100% height = 100%>
 
 - Provides **structural conditioning** (pose, depth, edge maps).
 - **What it is:** A method to give structural control signals (like edge maps, pose skeletons, depth maps) to diffusion models.
